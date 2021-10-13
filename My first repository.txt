@@ -1,1 +1,28 @@
 Мій перший репозиторій
+
+Або створити нове сховище в командному рядку
+
+echo "# LR_1-" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/obnimashkin/LR_1-.git
+git push -u походження main
+
+або натиснути наявне сховище з командного рядка
+git remote add origin https://github.com/obnimashkin/LR_1-.git
+
+гілка git -M main 
+git push -u origin main
+
+Відповіді на запитання
+1)Git - це система керування версіями.
+2)Git має три основних стани, в яких можуть перебувати ваші файли: збережений у коміті (commited), змінений (modified) та індексований (staged).
+3)Щоб додати (створити файл)
+4)Перевіряє статус.	
+5) Щоб додавати коментарі.
+6)Щоб запустити Git для цього репозиторію.
+7)Корисну інформацію.
+8) git log
+9)Дозволяє переміщатися між гілками створеними за допомогою git branch.
